@@ -13,16 +13,16 @@ export default function NavBar() {
           <Link to="/" className="nav-link" aria-current="page">All</Link>
         </li>
         <li className="nav-item">
-          <Link to='./Full-stack-development' className="nav-link">Full Stack Development</Link>
+          <Link to='./Full-stack-development' className="nav-link" aria-current="page">Full Stack Development</Link>
         </li>
         <li className="nav-item">
-          <Link to='/Data-science'className="nav-link">Data Science</Link>
+          <Link to='/Data-science'className="nav-link" aria-current="page">Data Science</Link>
         </li>
         <li className="nav-item">
-          <Link to='./Cyber-security' className="nav-link">Cyber security</Link>
+          <Link to='./Cyber-security' className="nav-link" aria-current="page">Cyber security</Link>
         </li>
         <li className="nav-item">
-          <Link to='/Career' className="nav-link">Career</Link>
+          <Link to='/Career' className="nav-link" aria-current="page">Career</Link>
         </li>
       </ul>
     </div>
